@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :host {
   --bright-blue: oklch(51.01% 0.274 263.83);
   --electric-violet: oklch(53.18% 0.28 296.97);
@@ -86,6 +90,7 @@ main {
   width: 1px;
   background: var(--red-to-pink-to-purple-vertical-gradient);
   margin-inline: 0.5rem;
+  height: inherit;
 }
 
 .pill-group {
