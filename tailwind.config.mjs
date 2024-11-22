@@ -1,11 +1,11 @@
 import daisyui from "daisyui"
-import typo from "@tailwindcss/typography"
+import typography from "@tailwindcss/typography"
 import {cmyk, sunset} from "daisyui/src/theming/themes";
 
 export default {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   plugins: [
-    typo,
+    typography,
     daisyui,
   ],
   daisyui: {
@@ -14,8 +14,8 @@ export default {
         cmyk,
         sunset: {
           ...sunset,
-          primary: "#134e4a",
-          secondary: "#047857",
+          primary: "#065f46",
+          secondary: "#059669",
           accent: "#0891b2",
         },
       },
