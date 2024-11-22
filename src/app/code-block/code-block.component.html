@@ -1,0 +1,7 @@
+<div class="mockup-code text-left">
+  @if (lines && lines.length > 0) {
+    @for (line of lines; track line.text) {
+      <pre [attr.data-prefix]=line.prefix [class]=line.type><code>{{ line.text }}</code></pre>
+    }
+  }
+</div>
