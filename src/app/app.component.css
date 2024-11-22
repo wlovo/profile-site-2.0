@@ -61,7 +61,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   box-sizing: inherit;
   position: relative;
 }
@@ -75,7 +74,6 @@ main {
   justify-content: space-around;
   width: 100%;
   max-width: 1200px;
-  margin-bottom: 3rem;
 }
 
 .content h1 {
@@ -128,9 +126,11 @@ main {
 .pill-group .pill:nth-child(6n + 1) {
   --pill-accent: var(--bright-blue);
 }
+
 .pill-group .pill:nth-child(6n + 2) {
   --pill-accent: var(--french-violet);
 }
+
 .pill-group .pill:nth-child(6n + 3),
 .pill-group .pill:nth-child(6n + 4),
 .pill-group .pill:nth-child(6n + 5) {
